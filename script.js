@@ -4,7 +4,7 @@ const table = document.getElementById('result');
 var request = new XMLHttpRequest();
 
 // Open a new connection, using the GET request on the URL endpoint
-request.open('GET', 'http://data.fixer.io/api/latest?access_key=fe3a9b3f9ac173a3e51d8ea22951cf95', true);
+request.open('GET', 'https://data.fixer.io/api/latest?access_key=fe3a9b3f9ac173a3e51d8ea22951cf95', true);
 
 request.onload = function () {
 
